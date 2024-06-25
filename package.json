@@ -1,0 +1,46 @@
+{
+  "name": "bunny-launcher",
+  "version": "0.0.1",
+  "private": false,
+  "type": "module",
+  "description": "Launch your static sites with BunnyCDN 🐰 in a single cli command",
+  "keywords": [
+    "BunnyCDN",
+    "bunny.net",
+    "bunny",
+    "cdn",
+    "bunny-launcher",
+    "typescript",
+    "sdk",
+    "api",
+    "cli"
+  ],
+  "homepage": "https://github.com/jlarmstrongiv/bunny-launcher/",
+  "bugs": "https://github.com/jlarmstrongiv/bunny-launcher/issues",
+  "repository": "https://github.com/jlarmstrongiv/bunny-launcher.git",
+  "license": "AGPL-3.0-only",
+  "author": "John L. Armstrong IV",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean"
+  },
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.2",
+    "esno": "^4.7.0",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "npm@10.8.1",
+  "engines": {
+    "node": ">=20"
+  }
+}
