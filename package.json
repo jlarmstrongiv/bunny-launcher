@@ -17,7 +17,10 @@
   ],
   "homepage": "https://github.com/jlarmstrongiv/bunny-launcher/",
   "bugs": "https://github.com/jlarmstrongiv/bunny-launcher/issues",
-  "repository": "https://github.com/jlarmstrongiv/bunny-launcher.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlarmstrongiv/bunny-launcher.git"
+  },
   "license": "AGPL-3.0-only",
   "author": "John L. Armstrong IV",
   "sideEffects": false,
