@@ -1,6 +1,6 @@
 {
   "name": "bunny-launcher",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "type": "module",
   "description": "Launch your static sites with BunnyCDN 🐰 in a single cli command",
