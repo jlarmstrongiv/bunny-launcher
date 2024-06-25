@@ -1,8 +1,8 @@
-# bunny-sdk
+# bunny-launcher
 
 [![NPM Version](https://img.shields.io/npm/v/bunny-launcher?color=blue)](https://www.npmjs.com/package/bunny-launcher)
 
-## Install
+## Installation
 
 ```shell
 npx bunny-launcher --interactive
