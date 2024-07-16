@@ -5,7 +5,7 @@
 ## Installation
 
 ```shell
-npx bunny-launcher@latest --interactive
+npx --yes bunny-launcher@latest --interactive
 ```
 
 ## Documentation
