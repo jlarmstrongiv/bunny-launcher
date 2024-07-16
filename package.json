@@ -15,7 +15,7 @@
     "api",
     "cli"
   ],
-  "homepage": "https://github.com/jlarmstrongiv/bunny-launcher/",
+  "homepage": "https://bunny-launcher.com/getting-started/",
   "bugs": "https://github.com/jlarmstrongiv/bunny-launcher/issues",
   "repository": {
     "type": "git",
@@ -25,22 +25,18 @@
   "author": "John L. Armstrong IV",
   "sideEffects": false,
   "scripts": {
-    "build": "tsup src/index.ts --format esm --dts --clean"
+    "prepublishOnly": "node --disable-warning=ExperimentalWarning ./check-dependencies.js"
   },
-  "exports": {
-    "types": "./dist/index.d.ts",
-    "default": "./dist/index.js"
-  },
+  "main": "index.js",
+  "bin": "no-warnings.js",
   "files": [
-    "dist"
+    "no-warnings.js",
+    "cli.js",
+    "commands",
+    "index.js"
   ],
-  "dependencies": {},
-  "devDependencies": {
-    "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.14.2",
-    "esno": "^4.7.0",
-    "tsup": "^8.1.0",
-    "typescript": "^5.4.5"
+  "dependencies": {
+    "cross-spawn": "^7.0.3"
   },
   "packageManager": "npm@10.8.1",
   "engines": {

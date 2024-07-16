@@ -1,4 +1,7 @@
-dist
+/index.js
+/cli.js
+/dependencies.json
+/commands
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,macos,windows,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,macos,windows,linux
