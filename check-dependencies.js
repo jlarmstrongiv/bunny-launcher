@@ -10,3 +10,7 @@ import assert from "node:assert/strict"
 for (const [key, value] of Object.entries(pkg.dependencies)) {
   assert(dependencies[key] === value, `Dependency "${key}" version mismatch "${dependencies[key]}" !== "${value}"`)
 }
+
+for (const [key, value] of Object.entries(dependencies)) {
+  assert(pkg.dependencies[key] === value, `Dependency "${key}" version mismatch "${pkg.dependencies[key]}" !== "${value}"`)
+}
