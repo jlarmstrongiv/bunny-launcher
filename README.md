@@ -10,4 +10,4 @@ npx --yes bunny-launcher@latest --interactive
 
 ## Documentation
 
-Please read the [docs](https://bunny-launcher.net/getting-started/) for usage and examples.
+Please read the [docs](https://bunny-launcher.net/quickstart/) for usage and examples.

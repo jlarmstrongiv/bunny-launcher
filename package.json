@@ -12,12 +12,13 @@
     "bunny-launcher",
     "create-bunny-launcher",
     "bunny-sync",
+    "bunny-move",
     "typescript",
     "sdk",
     "api",
     "cli"
   ],
-  "homepage": "https://bunny-launcher.net/getting-started/",
+  "homepage": "https://bunny-launcher.net/quickstart/",
   "bugs": "https://github.com/jlarmstrongiv/bunny-launcher/issues",
   "repository": {
     "type": "git",
